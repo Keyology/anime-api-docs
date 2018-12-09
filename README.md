@@ -1,4 +1,6 @@
-# Headline
+# Anime API 
 
-> An awesome project.
-# anime-api-docs
+> Anime APi.
+
+This is th official documentation for the anime Api built by Keoni Murray.
+

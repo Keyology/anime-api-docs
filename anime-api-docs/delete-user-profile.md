@@ -1,10 +1,12 @@
 # Delete user
 
-To delete user account  you can use fetch and send data as a form. form name should be  ``` name=email ``` 
+To delete user account  you can use fetch and send data as a form. 
 
-Route endpoint 
+The form name should be  ``` name=email ``` 
 
-### send a delete request to this endpoint 
+
+
+### send a delete request to this url endpoint 
 
 ``` http://localhost:4000/userprofile ```
 

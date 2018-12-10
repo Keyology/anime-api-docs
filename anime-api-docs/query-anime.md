@@ -1,12 +1,13 @@
 # Query Anime
 
-To query the database to get anime tv shows you will send a post request to this endpoint:
+you can query the anime database usig this url endpoint and sending a ```post request```:
+
 
 ``` http://localhost:4000/search ```
 
 you can use a fetch and send a form name=search.
 
-example of  querying database using postman:
+example of querying database  for anime tv shows using postman:
 
 ``` 
 {
@@ -28,6 +29,8 @@ here are some query for you to try out:
 4. Mushishi Zoku Shou 2nd Season"
 
 5. Monster
+
+# Make sure to copy the tv shows exactly as they are written otherwise the resutl will return an empty json object.
 
  #### Please keep in mind that this database dose not have every single anime ever created. It just contains a large collection of anime 12,294 to be exact, so  their may be a chance a anime show you search may not be foun. 
 

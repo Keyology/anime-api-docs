@@ -4,13 +4,13 @@
 
 to authenticate user you can either use fetch and send a form name=email && named name=password, or you can use postman and send the email and password over as json 
 
-## Route endpoint
+###  send a post request to this   url endpoint
 
 ``` http://localhost:4000/signup ```
 
-exaple of sending user data over in json 
 
-### send a post request to this endpoint
+### exaple of sending user data over in json using postman
+
 
 ``` 
 {
@@ -21,14 +21,23 @@ exaple of sending user data over in json
 }
 ```
 
-To login user  you can use this Route endpoint: 
+Once a user signs up you will recieve a JWT that looks something like this:
 
-```http://localhost:4000/login ```
+```
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzBkYjlmZjdjNmMwYjFiOTQ3NTJmYmQiLCJpYXQiOjE1NDQ0MDM0NTUsImV4cCI6MTU0NDQxMDY1NX0.cNWvoTYGp6pQGjK1IOyR2iF0V98GexesSmjx5dY3K4o"
 
-``` 
+```
 
-Example of sending login info in json format using postman:
-### send a post request to this endpoint
+### To login user  you can send a post request to this  url endpoint: 
+
+``` http://localhost:4000/login ```
+
+
+
+
+### Example of sending login info in json format using postman:
+
+```
 
 {
     "email":"Enter email here",
